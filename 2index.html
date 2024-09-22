@@ -1,0 +1,65 @@
+<html>
+    <head><title>PageX</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="Screenshot 2024-09-22 021019.png" type="image/icon type">
+        <div class="topnav">
+            <a href="#Home">Home</a>
+            <a href="#Search">Search</a>
+            <a href="#Add">Add</a>
+            <a href="#Unavailable">Unavailable</a>
+          </div>
+
+
+
+          <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-app.js"></script>
+          <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-analytics.js"></script>
+      
+          <script>
+              // Your Firebase configuration
+              const firebaseConfig = {
+                apiKey: "AIzaSyChSzsyDniRUUsze0sRZZgnQawT6k79_yA",
+                authDomain: "pagex-6a470.firebaseapp.com",
+                projectId: "pagex-6a470",
+                storageBucket: "pagex-6a470.appspot.com",
+                messagingSenderId: "552949264467",
+                appId: "1:552949264467:web:43ea6ca6f4fc25a94a96a6",
+              };
+      
+              // Initialize Firebase
+              const app = firebase.initializeApp(firebaseConfig);
+              const analytics = getAnalytics(app);
+          </script>
+    </head>
+    <body >
+        
+
+    <section id="Home">
+     <img id="headimage"src="Screenshot 2024-09-22 021019.png">
+     <h1 id="quote">There is no friend<br> as loyal as a book.<br></h1>
+     <h1 id="who"> -Ernest Hemingway</h1>
+    </section>
+    <section id="Search">
+        <br>
+<h1 id="search">
+    Search for your book
+</h1>
+<input type="text" />
+
+    </section>
+
+    <section id="Add">
+        
+        <h1 id="Add">
+            Add a book
+        </h1>
+        <input type="text" />
+       
+    </section>
+
+<section id="Unavailable">
+    <h1 id="un">Unavailable- </h1>
+</section>
+
+
+    </body>
+</html>
